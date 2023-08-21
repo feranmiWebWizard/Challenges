@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li{
+    list-style-type: none;
+}
+
+@media screen and (min-width: 728px) {
+    .grid_section{
+        display: flex;
+        max-width: 40.5rem;
+        margin: 1.5rem auto;
+        color: white;
+        }
+}
+
+button{
+    padding: 0.75rem 3.5rem;
+    border: 1px solid lightgreen;
+    border-radius: 0.5rem;
+    color: lightslategray;
+    background-color: lightgreen;
+    font-weight: 400;
+    margin-top: 3rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: lightseagreen;
+    color: white;
+}
+
+.grid_section{
+max-width: 40.5rem;
+margin: 1.5rem auto;
+color: white;
+padding: 0 1rem;
+}
+
+.section_one{
+display: flex;
+flex-direction: column;
+justify-content: center;
+background-color: teal;
+flex: 1;
+padding: 2rem;
+}
+.section_one h2{
+    padding-bottom: 1rem;
+}
+
+.section_two{
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 1rem;
+background-color: lightseagreen;
+flex: 1;
+padding: 2rem;
+}
+
+.top{
+    max-width: 40.5rem;
+    margin: 3rem auto;
+    color: lightslategray;
+    padding-left: 2.5rem;
+    padding-right: 1rem;
+}
+
+.top h2 {
+padding-bottom: 1rem;
+color: teal;
+}
+
+.top h3 {
+    color: lightgreen;
+    padding-bottom: 0.5rem;
+}
+
+.number{
+    font-size: 2rem;
+    padding-right: 0.5rem;
+}
