@@ -13,6 +13,11 @@ button{
     border: 1px solid #8b8fe0;
     cursor: pointer;
 }
+
+button:hover{
+    background-color: #636586;
+    color: white;
+}
 .card {
     background-color: white;
     width: 17rem;
@@ -95,7 +100,6 @@ input[type="checkbox"].toggle + label {
     background-image: url(blob-scene.svg);
     background-size: cover;
     background-position: center;
-    height: 100vh;
   }
 
   .container-two{
@@ -118,6 +122,7 @@ input[type="checkbox"].toggle + label {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 1.5rem 1rem;
   }
 
   @media screen and (max-width: 600px) {
@@ -141,4 +146,9 @@ input[type="checkbox"].toggle + label {
   .card-one button{
     background-color: white;
     color: #8b8fe0;
+  }
+
+  .card-one button:hover{
+    background-color: #636586;
+    color: white;
   }
