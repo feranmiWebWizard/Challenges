@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>landing page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="nav-bar">
+        <span class="logo"><span id="logo">N</span>UXA</span>
+        <ul class="hidden">
+          <li>Home</li>
+          <li>Features</li>
+          <li>About</li>
+          <li>Product</li>
+          <li>Blog</li>
+          <li>Testimonial</li>
+          <li>Contact</li>
+        </ul>
+        <span class="hamburger">X</span>
+      </nav>
+
+      <div class="header-container">
+        <div>
+          <h1>Smart Digital Watch For Luxurious Life</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab,
+            perferendis amet. Nulla recusandae repellendus iste adipisci
+            reprehenderit quia hic nemo nobis veritatis,
+          </p>
+          <button>Order Now</button>
+        </div>
+        <img src="pngwing.com.png" alt="smartwatch" />
+      </div>
+    </div>
+
+    <script>
+      const menu = document.querySelector("ul");
+      const btn = document.querySelector(".hamburger");
+      btn.addEventListener("click", () => {
+        function show() {
+          menu.classList.contains("hidden")
+            ? menu.classList.remove("hidden")
+            : menu.classList.add("hidden");
+        }
+        show();
+      });
+    </script>
+  </body>
+</html>
