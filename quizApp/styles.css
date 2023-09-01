@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h3{
+    color: #488b73;
+}
+h2{
+    padding-top: 1rem;
+}
+input[type='radio'] {
+    position: absolute;
+    opacity: 0;
+    left: -9999px;
+}
+input[type='submit']{
+    border: 0;
+    border-radius: 0.5rem;
+    background-color: #459a88;
+    font-size: 1.2rem;
+    color: white;
+    padding: 1rem 0;
+    max-width: 5.5rem;
+    cursor: pointer;
+}
+input[type='submit']:hover{
+    background-color: white;
+    color: #459a88;
+    border: 1px solid #459a88;
+}
+
+label{
+    background-color: #cccccc;
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+label:hover{
+    background-color: #377e22;
+
+}
+
+.container{
+    max-width: 40rem;
+    margin: auto;
+    padding: 2rem;
+    border: 0.7rem solid #377e22;
+}
+
+.options{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    gap: 0.5rem;
+    padding: 1rem;
+}
+
+
